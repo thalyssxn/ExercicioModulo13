@@ -1,0 +1,117 @@
+.navbar-nav .nav-link.active {
+    color: #fff;
+}
+
+#logo-header {
+    height: 90px;
+}
+
+#img-center {
+    height: 450px;
+}
+
+#text-center {
+    margin-top: 160px;
+    color: #ebebeb;
+}
+
+h2 {
+    padding: 16px;
+    font-size: 42px;
+}
+
+#cabecalho a:hover {
+    color: rgb(0, 195, 255);
+}
+
+footer, h2 {
+    color: #ebebeb;
+    text-align: center;
+}
+
+body {
+    background-color:#1f1f1f;
+}
+
+.card {
+    background-color: #1f1f1f;
+}
+
+.card {
+    border: none;
+}
+
+.nav-item a {
+    color: #ebebeb;
+}
+
+#btn-login {
+    margin-left: 8px;
+}
+
+
+.navbar-expand-lg a {
+    padding-left: 8px;
+}
+
+.navbar-toggler {
+    margin-right: 4px;
+    border-color: #ebebeb;
+}
+
+#cabecalho {
+    background-color: rgba(0, 0, 0, 15%);
+    color: #ebebeb;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.modal {
+    --bs-modal-width: 800px;
+    margin-top: 350px;
+    
+}
+
+#poupup {
+    color: #fff;
+}
+
+/* _____________________________________________________________Screen Phone_______________________________________ */
+@media screen and (max-width:640px) {
+    #text-center {
+    margin-top: 12px;
+    }
+
+    .carousel-indicators {
+        display: none;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+
+    #perguntas {
+        font-size: 32px;
+    }
+
+    .btn-info, .modal-body {
+        font-size: 12px;
+        padding: 6px;
+    }
+
+    .modal-header, .modal-body, .modal-footer {
+        padding: 6px;
+    }
+
+    .modal {
+        margin-top: 350px;
+        --bs-modal-margin: 0.9rem;
+    }
+
+    .row {
+        --bs-gutter-x: 1.rem;
+    }
+}
+

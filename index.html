@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Riot Gomes</title>
+</head>
+<body>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <div id="cabecalho" class="container p-0">
+            <header id="header">
+                <div class="navbar navbar-expand-lg">
+                    <img id="logo-header" class="navbar navbar-brand" src="./media/download.png" alt="">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-theme="dark" data-bs-target="#menu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <nav class="collpase navbar-collapse justify-content-end" id="menu">
+                        <ul class="nav navbar-nav nav-pills">
+                            <li class="nav-item">
+                                <a href="#carousel" class="nav-link active">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#destaque" class="nav-link">Novidades</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#lancamento" class="nav-link">Lançamentos</a>
+                            </li>
+                        </ul>
+                        <button id="btn-login" class="btn btn-dark">Login</button>
+                    </nav>
+                </div>
+            </header>
+        </div>
+    
+<!-- ______________________________________________Carousel________________________________________________________ -->
+    
+        <div>
+            <div id="carousel" class="carousel slider" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div data-bs-interval="4000" class="carousel-item active">
+                        <img src="./media/valorantimage.png" alt="" class="d-block w-100">
+                    </div>
+                    <div data-bs-interval="4000" class="carousel-item">
+                        <img src="./media/wrka-2023.png" alt="" class="d-block w-100">
+                    </div>
+                    <div data-bs-interval="4000" class="carousel-item">
+                        <img src="./media/lol-2024-kv.png" alt="" class="d-block w-100">
+                    </div>
+                    <div data-bs-interval="4000" class="carousel-item">
+                        <img src="./media/lor-set-9-product-card.png" alt="" class="d-block w-100">
+                    </div>
+                    <div data-bs-interval="4000" class="carousel-item">
+                        <img src="./media/tft-set-12.png" alt="" class="d-block w-100">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0" ></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" ></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" ></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" ></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="4" ></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="5" ></button>
+                </div>
+            </div>
+        </div>
+<!-- _______________________________________________Cards____________________________________________________________ -->
+        <div id="cards" class="container p-0">
+            <h2 id="destaque">Novidades</h2>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <article class="card">
+                        <img src="./media/tft-set-12.png">
+                    </article>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <article class="card">
+                        <img src="./media/lor-set-9-product-card.png">
+                    </article>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <article class="card">
+                        <img src="./media/wrka-2023.png">
+                    </article>
+                </div>
+            </div>
+            <div class="row p-2">
+                <div id="text-center" class="col-sm-12 col-md-6 col-lg-4">
+                    <div>
+                        <h3>VALORANT Champions Seoul</h3>
+                        <p>As Finais começam em breve!
+                            Das 16 melhores equipes do mundo, restaram apenas quatro no Champions 2024. Descubra quem vai erguer a taça em Seul, Coreia, entre 23 e 25 de agosto.</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 p-2">
+                    <div class="card">
+                        <img id="img-center" src="./media/VALORANT-Champions-2024.jpg">
+                    </div>
+                </div>
+            </div>
+            <h2 id="lancamento">Skins</h2>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <article class="card">
+                        <img src="./media/prelugio.jpg">
+                    </article>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <article class="card">
+                        <img src="./media/an-image-of-the-oni-vandal-in-valorant.avif">
+                    </article>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <article class="card">
+                        <img src="./media/Valorant-Kuronami-Vandal.jpg">
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!-- __________________________________________________Accordion_____________________________________________________ -->
+
+<div class="container mt-4 p-0">
+    <h2 id="perguntas">Perguntas Frequentes</h2>
+    <div class="accordion p-3" data-bs-theme="dark">
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#resposta1">O que está incluído no Riot Gomes?</button>
+            </div>
+            <div id="resposta1" class="accordion-collpase collapse">
+                <div class="accordion-body">
+                    <ul>
+                        <li>
+                            <p>Experiência de jogos incríveis</p>
+                        </li>
+                        <li>
+                            <p>Os os melhores jogos vc só encontra aqui.</p>
+                        </li>
+                </div>
+            </div>
+        </div>
+        
+<!-- ____________________________________________________________Rodapé_______________________________________________________________ -->
+
+    <div class="container mt-4 mb-4 p-0">
+        <div class="row">
+            <footer>
+                2024 & Thalyz Soares - Todos os direitos reservados
+            </footer>
+        </div>
+    </div>
+
+<!-- ____________________________________________________Modal automatic with options________________________________________________ -->
+    <div id="poupup" class="container p-0">
+        <div class="modal" id="modal" data-bs-theme="dark" data-bs-backdrop="static">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5>Preferências de cookies</h5>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                Nós e nossas <a href="#">Afiliados</a> utilizamos terceiros para acessar e armazenar dados no seu dispositivo a fim de analisar o uso e aprimorar sua experiência, além de personalizar, mensurar e fornecer conteúdos e anúncios. Para obter mais informações, consulte nossa <a href="#">Política de Privacidade</a>.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-info" data-bs-dismiss="modal">Aceitar todos os cookies</button>
+                            <button type="button" class="btn btn-info" data-bs-dismiss="modal">Gerenciar preferências de cookies</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./lib/bootstrap.bundle.min.js" ></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function(){
+        const modalExemplo = new bootstrap.Modal('#modal')
+        setTimeout(function(){
+            modalExemplo.show()
+        }, 2000)
+    })
+</script>
+</html>     
